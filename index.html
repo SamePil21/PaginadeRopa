@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Coqueta Azul</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #e0f7fa;
+      color: #034f84;
+    }
+
+    header {
+      background-color: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 1.5em 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    .contenedor-productos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2em;
+    }
+
+    .producto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 1em;
+      width: 220px;
+      text-align: center;
+      padding: 1em;
+      transition: transform 0.3s ease;
+    }
+
+    .producto:hover {
+      transform: scale(1.05);
+    }
+
+    .producto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .producto h3 {
+      margin: 0.5em 0 0.2em;
+    }
+
+    .producto p {
+      margin: 0.2em 0;
+      color: #0277bd;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #0288d1;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    💙 Tienda Coqueta Azul 💙
+  </header>
+
+  <div class="contenedor-productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x250/90caf9/ffffff?text=Vestido+Azul" alt="Vestido Azul">
+      <h3>Vestido Azul Cielo</h3>
+      <p>$39.99</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x250/64b5f6/ffffff?text=Blusa+Celeste" alt="Blusa Celeste">
+      <h3>Blusa Celeste</h3>
+      <p>$24.99</p>
+    </div>
+
+    <div class="producto">
+      <img src="https://via.placeholder.com/200x250/42a5f5/ffffff?text=Jeans+Azul" alt="Jeans Azul">
+      <h3>Jeans Azul Clásico</h3>
+      <p>$49.99</p>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Tienda Coqueta Azul. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
